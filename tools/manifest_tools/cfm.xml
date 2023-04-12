@@ -1,0 +1,8 @@
+<CFM sku="SKU1">
+    <Component>
+        "Component1"
+    </Component>
+    <Component>
+	    "Component2"
+    </Component>
+</CFM>
