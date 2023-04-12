@@ -35,6 +35,7 @@
  */
 void add_all_core_tests (CuSuite *suite)
 {
+	add_all_mctp_tests (suite);
 	add_all_attestation_tests (suite);
 	add_all_cmd_interface_tests (suite);
 	add_all_common_tests (suite);
@@ -46,7 +47,6 @@ void add_all_core_tests (CuSuite *suite)
 	add_all_keystore_tests (suite);
 	add_all_logging_tests (suite);
 	add_all_manifest_tests (suite);
-	add_all_mctp_tests (suite);
 	add_all_recovery_tests (suite);
 	add_all_riot_tests (suite);
 	add_all_spi_filter_tests (suite);
